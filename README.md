@@ -78,6 +78,7 @@ This will display:
 - **Network Plot:** Nodes are arranged using a spring layout. Edges with higher congestion are thicker and more intensely colored.
 - **Histogram:** Shows the distribution of congestion across all links for each routing strategy.
 
+
 ## Key Findings
 
 - **Valiant's routing dramatically reduces maximum link congestion and balances the load across the network in the adversarial (bit-reversal) permutation.**
@@ -89,6 +90,21 @@ This will display:
 - To change the hypercube dimension, edit the `DIM` constant in `hypercube_sim.cpp`.
 - The visualization script automatically adapts to the number of nodes/edges in the CSV files.
 
+## Results for Large Hypercube (DIM=13, n=8192)
+
+### Network Congestion Comparison
+
+![Network Comparison for DIM=13](network_comparison_dim13.png)
+
+*Network congestion for Valiant’s randomized routing (left) and deterministic bit-fixing routing (right) under adversarial (bit-reversal) permutation on a 13D hypercube (8192 nodes).*
+
+---
+
+### Histogram of Link Congestion
+
+![Histogram Comparison for DIM=13](histogram_comparison_dim13.png)
+
+*Histogram of link congestion for Valiant’s and deterministic routing (bit-reversal, 13D hypercube). Valiant’s routing dramatically reduces the maximum link congestion compared to deterministic routing, which suffers from severe bottlenecks.*
 ## Contact
 
 For questions or improvements, please contact [Your Name].
