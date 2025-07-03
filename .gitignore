@@ -1,0 +1,22 @@
+# C++ build artifacts
+*.exe
+*.o
+*.out
+*.obj
+*.dll
+*.so
+*.a
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Editor/OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+
+# Do not ignore CSV or PNG output files (they are part of the project) 
