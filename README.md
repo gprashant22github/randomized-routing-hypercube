@@ -105,6 +105,3 @@ This will display:
 ![Histogram Comparison for DIM=13](histogram_comparison_dim13.png)
 
 *Histogram of link congestion for Valiant’s and deterministic routing (bit-reversal, 13D hypercube). Valiant’s routing dramatically reduces the maximum link congestion compared to deterministic routing, which suffers from severe bottlenecks.*
-## Contact
-
-For questions or improvements, please contact [Your Name].
